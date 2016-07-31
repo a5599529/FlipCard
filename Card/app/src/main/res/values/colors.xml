@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="ke_beige">#f9f6f2</color>
+    <color name="new_grey">#4e5665</color>
+    <color name="white">#FFFFFF</color>
+    <color name="item_tab_bg">#E5F4F4F4</color>
+    <color name="yellow">#FFB700</color>
+    <color name="white_90alpha">#E5FFFFFF</color>
+    <color name="near_black">#1B1B1B</color>
+    <color name="ke_darkgrey">#555555</color>
+</resources>

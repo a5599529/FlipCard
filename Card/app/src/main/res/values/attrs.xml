@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KMTabWidget">
+        <attr name="selectorColor" format="color" />
+        <attr name="selectorHeight" format="dimension" />
+        <attr name="initialPosition" format="integer" />
+    </declare-styleable>
+
+    <!-- Action Bar -->
+    <declare-styleable name="MActionBar">
+        <attr name="titleText" format="string" />
+        <attr name="title_logo" format="reference" />
+        <attr name="title_gravity" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="left_button_image_src" format="reference"/>
+        <attr name="left_button_text_src" format="reference" />
+        <attr name="right_button_image_src" format="reference"/>
+        <attr name="right_button_text_src" format="reference" />
+        <attr name="right_button_text_all_caps" format="boolean"/>
+        <attr name="actbar_theme" format="enum">
+            <enum name="light" value="0" />
+            <enum name="dark" value="1" />
+            <enum name="transparent" value="2" />
+        </attr>
+
+        <attr name="social" format="boolean"/>
+        <attr name="social_title_size" format="reference"/>
+        <attr name="social_title_fontPath" format="string"/>
+        <attr name="social_right_txt_size" format="reference"/>
+        <attr name="social_right_txt_fontPath" format="string"/>
+        <attr name="social_title_style" format="reference"/>
+        <attr name="social_right_txt_style" format="reference"/>
+
+    </declare-styleable>
+</resources>

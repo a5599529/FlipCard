@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/social_card_edit_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ke_beige">
+
+    <com.yang.widget.MActionBar
+        android:id="@+id/social_card_title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:left_button_image_src="@drawable/icon_back_circle"
+        app:titleText="@string/Actionbar_title" />
+    <com.yang.widget.KMTabWidget
+        android:id="@+id/social_card_title_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+	    android:background="@color/white"
+        app:selectorColor="@color/ke_darkgrey"
+        android:layout_below="@+id/social_card_title_bar"
+        app:selectorHeight="@dimen/ke_4pt"
+        >
+            <TextView
+                android:id="@+id/social_order_title_font_textview"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Common_Front"
+                android:textAllCaps="true"/>
+            <TextView
+                android:id="@+id/social_order_title_back_textview"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="@string/Common_Back"
+                android:textAllCaps="true"/>
+        </com.yang.widget.KMTabWidget>
+    <LinearLayout
+        android:id="@+id/social_order_tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/social_order_tools_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/ke_beige"
+            android:padding="@dimen/ke_10.2pt"
+            android:gravity="center"
+            android:text="@string/Common_Edit"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/social_order_tools_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/new_grey"
+            android:padding="@dimen/ke_10.2pt"
+            android:gravity="center"
+            android:text="@string/Common_Buy"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/social_order_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:background="@color/ke_beige"
+        android:padding="@dimen/ke_5.5pt"
+        android:layout_marginBottom="@dimen/tab_item_height"
+        android:layout_alignParentBottom="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/social_card_title_tab"
+        android:layout_above="@+id/social_order_price"
+        android:layout_marginBottom="@dimen/ke_10.2pt"
+        android:layout_marginTop="@dimen/ke_24pt">
+
+        <com.yang.widget.SocailOrderMainView
+            android:id="@+id/social_order_mainview"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/ke_beige"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Card</string>
+    <string name="Common_Edit">Edit</string>
+    <string name="Common_Buy">Buy</string>
+    <string name="Actionbar_title">CARD</string>
+    <string name="Common_Back">Back</string>
+    <string name="Common_Front">Front</string>
+    <string name="zoomIn">Narrow</string>
+
+</resources>
